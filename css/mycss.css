@@ -53,6 +53,14 @@
     margin-top: 30px;
     padding: 20px;
 }
+.gambar {
+    margin-top: 40px;
+}
+.gambar img {
+    margin-right: 10px;
+    width: 90px;
+
+}
 
 /* --------Footer-------- */
 .py-5 {
