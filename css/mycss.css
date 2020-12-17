@@ -1,1 +1,15 @@
-/* css */
+/* Jumbotron */
+.jumbotron h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.jumbotron {
+    padding: 30px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: none;
+    margin-top: -33px;
+}
