@@ -1,72 +1,92 @@
-/* --------Jumbotron-------- */
-.jumbotron h1 {
-    text-align: center;
-    font-size: 25px;
-    font-weight: 400;
-    z-index: 1;
-    position: relative;
-    color: white;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-}
-.jumbotron {
-    padding: 30px;
-    background-image: url(https://www.jalajahnusae.com/wp-content/uploads/2019/12/Tips-Landscape.jpg);
-    position: relative;
-    text-align: center;
-    background-size: cover;
-}
-.jumbotron::after {
-    content: '';
-    display: block;
-    height: 100%;
-    width: 100%;
-    margin-left:-30px ;
-    background-image: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0));
-    position: absolute;
-    bottom: 0;
-}
+/* Home */
+    /* --------Jumbotron-------- */
+    .jumbotron h1 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 400;
+        z-index: 1;
+        position: relative;
+        color: white;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    }
+    .jumbotron {
+        padding: 30px;
+        background-image: url(https://www.jalajahnusae.com/wp-content/uploads/2019/12/Tips-Landscape.jpg);
+        position: relative;
+        text-align: center;
+        background-size: cover;
+    }
+    .jumbotron::after {
+        content: '';
+        display: block;
+        height: 100%;
+        width: 100%;
+        margin-left:-30px ;
+        background-image: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0));
+        position: absolute;
+        bottom: 0;
+    }
 
-/* --------Navbar-------- */
-.navbar {
-    background-color: #e6e6e6 !important;
-    margin-top: -33px;
-}
-.navbar .navbar-brand {
-    font-size: 30px;
-}
-.navbar .tombol{  /* untuk tombol */
-}
+    /* --------Navbar-------- */
+    .navbar {
+        background-color: #e6e6e6 !important;
+        margin-top: -33px;
+    }
+    .navbar .navbar-brand {
+        font-size: 30px;
+    }
+    /* .navbar .tombol{  
+    } */
 
-/* --------isi-------- */
-.tentang {
-    font-size: 20px;
-}
-.main {
-    border: 1px solid #e6e6e6;
-    background-color: #f2f2f2;
-    padding: 15px;
-    margin-top: 20px;
-}
-.sidebar {
-    border: 1px solid #e6e6e6;
-    background-color: #f2f2f2;
-    margin-top: 30px;
-    padding: 20px;
-}
-.gambar {
-    margin-top: 40px;
-}
-.gambar img {
-    margin-right: 10px;
-    width: 90px;
+    /* --------isi-------- */
+    .tentang {
+        font-size: 20px;
+    }
+    .main {
+        border: 1px solid #e6e6e6;
+        background-color: #f2f2f2;
+        padding: 15px;
+        margin-top: 20px;
+    }
+    .sidebar {
+        border: 1px solid #e6e6e6;
+        background-color: #f2f2f2;
+        margin-top: 30px;
+        padding: 20px;
+    }
+    .gambar {
+        margin-top: 40px;
+    }
+    .gambar img {
+        margin-right: 10px;
+        width: 90px;
 
-}
+    }
 
-/* --------Footer-------- */
-.py-5 {
-    margin-top: 20px;
-}
+    /* --------Footer-------- */
+    .py-5 {
+        margin-top: 20px;
+    }
+/* /Home */
 
+/* Login */
+    .card {
+        background: white ;
+        border-radius: 8px;
+        box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+        height: 340px;
+        margin: 6rem auto 8.1rem auto;
+        width: 350px;
+    }
+    .formm {
+        padding: 20px;
+    }
+    .btn1 {
+        padding-top: 20px;
+    }
+    .login {
+        padding-top: 20px;
+    }
 
 
 /* --------Desktop.Version-------- */
@@ -91,9 +111,17 @@
     .sidebar {
         width: 20%;
         float: right;
-        padding-top: 40px;
         padding: 20px;
+        margin-right: -30px;
         border: 1px solid #e6e6e6;
+    }
+    .card {
+        background: white ;
+        border-radius: 8px;
+        box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+        height: 290px;
+        margin: 6rem auto 8.1rem auto;
+        width: 440px;
     }
 
 }
