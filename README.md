@@ -1,2 +1,2 @@
-# Kelompok 4 SILOKERNF
-[^longnote]: Nama Kelompok.
+## Kelompok 4 SILOKERNF
+Nama Kelompok:
