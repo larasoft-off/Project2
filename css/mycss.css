@@ -35,8 +35,6 @@
     .navbar .navbar-brand {
         font-size: 30px;
     }
-    /* .navbar .tombol{  
-    } */
 
     /* --------isi-------- */
     .tentang {
@@ -131,6 +129,12 @@
         text-decoration: none;
         color: salmon;
     }
+    .active:visited{
+       text-decoration: none;
+       display: inline-block;
+       color: #f62109;
+
+    }
     .slide2:hover{
         text-decoration: none;
         color: salmon;
@@ -203,6 +207,15 @@
         margin: 6rem auto 8.1rem auto;
         width: 440px;
     }
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid blue;
+        width: 70%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+      }
 
 }
 
