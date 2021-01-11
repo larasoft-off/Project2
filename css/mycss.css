@@ -1,6 +1,6 @@
 /* Home */
     /* --------Jumbotron-------- */
-    .jumbotron h1 {
+    .home h1 {
         text-align: center;
         font-size: 25px;
         font-weight: 400;
@@ -9,14 +9,14 @@
         color: white;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     }
-    .jumbotron {
+    .home{
         padding: 30px;
         background-image: url(https://www.jalajahnusae.com/wp-content/uploads/2019/12/Tips-Landscape.jpg);
         position: relative;
         text-align: center;
         background-size: cover;
     }
-    .jumbotron::after {
+    .home::after {
         content: '';
         display: block;
         height: 100%;
@@ -60,7 +60,9 @@
         width: 90px;
 
     }
-    /*-------Lowongan---------*/
+/*------- Home ------- */
+
+/*-------Lowongan---------*/
 
     .main2 {
         border: 1px solid #e6e6e6;
@@ -144,14 +146,12 @@
         color: salmon;
     }
     /*-------bottom_Slide------*/
-
-    /*-------Lowongan---------*/
+/*-------Lowongan---------*/
 
     /* --------Footer-------- */
     .py-5 {
         margin-top: 20px;
     }
-/* /Home */
 
 /* Login */
     .card {
@@ -171,11 +171,15 @@
     .login {
         padding-top: 20px;
     }
+/* /Login */
+
+/* Dashboard Admin */
+    /* jumbotron */
 
 
 /* --------Desktop.Version-------- */
 @media (min-width: 992px) {
-    .jumbotron h1 {
+    .home h1 {
         text-align: center;
         font-size: 45px;
     }
