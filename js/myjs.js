@@ -6,7 +6,7 @@ function login() {
     // console.log("password: " + pass.value);
     if(user.value == "admin" && pass.value == "admin123"){
         alert("Selamat Datang");
-        window.location="home.html";
+        window.location="admin.html";
     }
     else{
         alert("Username atau Password salah");
