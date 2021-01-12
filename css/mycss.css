@@ -64,7 +64,6 @@ body {
     .gambar img {
         margin-right: 10px;
         width: 90px;
-
     }
 /*------- Home ------- */
 
@@ -154,7 +153,7 @@ body {
     /*-------bottom_Slide------*/
 /*-------Lowongan---------*/
 
-    /* --------Footer-------- */
+/* --------Footer-------- */
     .py-5 {
         margin-top: 20px;
     }
@@ -180,7 +179,7 @@ body {
 /* /Login */
 
 /* Dashboard Admin */
-    /* jumbotron */
+    /* Jumbotron */
     .admin {
         margin-top: 20px;
         border-radius: 7px;
@@ -199,6 +198,7 @@ body {
         padding-top: 1px;
         padding-bottom: 20px;
     }
+    /* Menu Admin */
     .menu {
         box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
         border-radius: 12px;
@@ -207,10 +207,10 @@ body {
         padding: 20px;
         margin: 5px;
     }
-    .menu span {
+    .menu p {
         text-decoration: none;
         color: black;
-    }  
+    }
     .menu a i:hover::before {
         color: 	#1ab6cf;
         text-decoration: none;
