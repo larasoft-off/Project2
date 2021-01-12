@@ -175,6 +175,10 @@
 
 /* Dashboard Admin */
     /* jumbotron */
+    .admin {
+        margin-top: 20px;
+        border-radius: 7px;
+    }
 
 
 /* --------Desktop.Version-------- */
