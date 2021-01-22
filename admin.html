@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Admin - SILOKERNF</title>
+    <title>Berita - SILOKERNF</title>
     <link rel="icon" type="image/png" href="https://thumbs.gfycat.com/HandmadeFavoriteIndianringneckparakeet-small.gif">
 
     <!-- Bootstrap CSS -->
@@ -46,13 +46,13 @@
             <a class="nav-link" href="lowongan1.html">Lowongan Baru</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#">Isi Loker</a>
+              <a class="nav-link" href="isi_loker.html">Isi Loker</a>
           </li>
           <li class="nav-item">
               <a class="nav-link" href="DaftarMitra.html">Daftar Mitra</a>
           </li>
-          <li class="nav-item">
-              <a class="nav-link" href="berita.html">Berita</a>
+          <li class="nav-item active">
+              <a class="nav-link" href="berita.html">Berita<span class="sr-only">(current)</span></a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -62,51 +62,66 @@
       </div>
   </nav>
   <!-- Navbar -->
+
   <!-- isi -->
-    <!-- container -->
-    <div class="container bg-white padd">
-        <div class="jumbotron jumbotron-fluid bg-info text-center admin">
-            <div class="container">
-            <h1 class="display-4"><i class="fa fa-user" aria-hidden="true"></i>
-                Selamat Datang, Admin</h1>
-            <p class="lead">Silahkan pilih menu-menu dibawah ini untuk memulai mengelola data.</p>
-            </div>
-        </div>
-    <!-- /container -->
-    <!-- menu -->
-    <div class="row">
-        <div class="col-md-12 mt-2 ml-2 mr-2">
-            <div class="row justify-content-center text-center">
-                <div class="col-md-2 d-flex flex-column menu btn-light">
-                    <a href="keloker.html" aria-pressed="false">
-                        <i class="fa fa-briefcase fa-5x text-info" aria-hidden="true"></i></br>
-                        <p>Kelola Lowongan Kerja</p>
-                    </a>
-                </div>
-                <div class="col-md-2 d-flex flex-column menu btn-light">
-                    <a href="kemitra.html" aria-pressed="false">
-                        <i class="fa fa-user-plus fa-5x text-info" aria-hidden="true"></i></br>
-                        <p>Kelola Mitra</p>
-                    </a>
-                </div>
-                <div class="col-md-2 d-flex flex-column menu btn-light">
-                    <a href="#" aria-pressed="false">
-                        <i class="fa fa-plus fa-5x text-info" aria-hidden="true"></i></br>
-                        <p>Isi Berita</p>
-                    </a>
-                </div>
-                <div class="col-md-2 d-flex flex-column menu btn-light">
-                    <a href="#" aria-pressed="false">
-                        <i class="fa fa-newspaper-o fa-5x text-info" aria-hidden="true"></i></br>
-                        <p>Daftar Berita</p>
-                    </a>
+    <!-- Berita -->
+    <div class="container side">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb bread justify-content-end bg-white">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Berita</li>
+          </ol>
+      </nav>
+    </div>
+
+    <div class="container cf">
+        <div class="main">
+            <h3>Berita Terkini</h3>
+            <div class="row">
+                <div class="col-md berita">
+                    <img src="https://i.postimg.cc/76Vg1LVr/image1.png" alt="" class="float-left">
+                    <h3 class="bold1" id="berita1"><a href="berita1.html">Seminar & Workshop - Penerapan Materi Microservice</a></h3>
+                    <p>11 Januari 2021</p>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md berita">
+                    <img src="https://i.postimg.cc/R0pTvmn2/image2.png" alt="" class="float-left">
+                    <h3 class="bold1" id="berita1"><a href="berita2.html">660.000 Pekerjaan Diprediksi Hilang Gegara Corona</a></h3>
+                    <p>18 Januari 2021</p>
+                </div>
+            </div>
+            <div class="row"> 
+                <div class="col-md berita">
+                    <img src="https://i.postimg.cc/mksj5w9r/image3.png" alt="" class="float-left">
+                    <h3 class="bold1" id="berita1"><a href="berita3.html">Pekerjaan yang Banyak Dibutuhkan Usai Pandemi</a></h3>
+                    <p>15 Desember 2020</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md berita">
+                    <img src="https://i.postimg.cc/1R74Mt1k/image4.png" alt="" class="float-left">
+                    <h3 class="bold1" id="berita1"><a href="berita4.html">Siap-siap! 85 Juta Pekerjaan Bakal Digantikan Robot</a></h3>
+                    <p>15 Januari 2021</p>
+                </div>
+            </div>
         </div>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+        <h3>Lowongan Baru:</h3>
+        <a href="#"><p class="pberita">Lowongan1</p></a>
+        <a href="#"><p class="pberita">Lowongan2</p></a>
+        <a href="#"><p class="pberita">Lowongan3</p></a>
+        <a href="#"><p class="pberita">Lowongan4</p></a>
+        </div>
+        <!-- /Sidebar -->
     </div>
-    </div>
-    <!-- /menu -->
+
+
+    <!-- /Berita -->
   <!-- /Isi -->
+
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
@@ -119,4 +134,3 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </html>
-
