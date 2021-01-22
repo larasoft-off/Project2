@@ -19,6 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&family=Work+Sans:wght@400&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
   <!-- Header -->
@@ -39,7 +40,8 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i>
+              Home<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="lowongan1.html">Lowongan Baru</a>
@@ -51,7 +53,7 @@
               <a class="nav-link" href="DaftarMitra.html">Daftar Mitra</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#">Berita</a>
+              <a class="nav-link" href="berita.html">Berita</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -63,40 +65,50 @@
   <!-- Navbar -->
 
   <!-- isi -->
+    <div class="container side">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb bread justify-content-end bg-white">
+        <li class="breadcrumb-item active" aria-current="page">/ Home</li>
+        </ol>
+      </nav>
+    </div>  
+
     <!-- Tentang -->
     <div class="container cf">
       <div class="main">
         <h1 class="f">Tentang SILOKERNF</h1>
-        <p>SILOKERNF adalah singkatan dari Sistem Lowongan Kerja Nurul Fikri yang merupakan sebuah website untuk mencari lowongan pekerjaan di Nurul Fikri. 
+        <p class="ptentang">SILOKERNF adalah singkatan dari Sistem Lowongan Kerja Nurul Fikri yang merupakan sebuah website untuk mencari lowongan pekerjaan di Nurul Fikri. 
           Website ini dibuat pada tahun 2021 tepatnya pada bulan Januari yang dibuat oleh empat orang, yang memiliki tujuan untuk menginformasikan beberapa informasi tentang posisi pekerjaan
           yang sedang dicari untuk diarahkan ke Nurul Fikri. Jenis lowongan pekerjaan pada umumnya bervariasi di bidang Teknologi Informasi tentunya, seperti Programmer, Desainer, Network enginners, dan masih banyak lagi.
         </p>
           <div class="row gambar">
             <div class="col-12">
               <div class="row">
-                <div class="col-lg">
-                  <h3 id="berita1">Seminar & Workshop - Materi Microservice</h3>
+                <div class="col-lg subberita">
+                  <h3 class="bold" id="berita1">Seminar & Workshop - Penerapan Materi Microservice</h3>
                   <img src="https://i.postimg.cc/76Vg1LVr/image1.png" alt="" class="float-left">
-                  <p class="float-center"> kali ini LPPM STT Nurul Fikri menyelenggarakan seminar dan workshop tentang Penerapan Materi Microservice.....
-                    <a href="#">View More.</a>
-                  </p>
+                  <p class="pberita">Ada kabar gembira nih, LPPM STT Nurul Fikri menyelenggarakan seminar dan workshop tentang Penerapan Materi Microservice</p>
+                    <a class="viewmore float-right" href="berita1.html">Selengkapnya >></a>
                 </div>
-                <div class="col-lg">
-                  <h3 id="berita2">Berita Terbaru 2</h3>
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/GAMBAR_TIDAK_TERSEDIA.png" alt="" class="float-left">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum recusandae assumenda perferendis est voluptates. Repudiandae ut quos quisquam veritatis sequi ex harum, nihil temporibus aperiam? Molestias asperiores iure debitis numquam.</p>
+                <div class="col-lg subberita">
+                  <h3 class="bold" id="berita2">660.000 Pekerjaan Diprediksi Hilang Gegara Corona</h3>
+                  <img src="https://i.postimg.cc/R0pTvmn2/image2.png" alt="" class="float-left">
+                  <p class="pberita">Tahun ini, sekitar 20% dari 3,2 juta pekerjaan di sektor tersebut malah hilang dan pendapatan sektor ini ikut turun 40% dibanding tahun lalu.</p>
+                    <a class="viewmore float-right" href="berita2.html">Selengkapnya >></a>
                 </div>
               </div>
               <div class="row">
-                <div class="col-lg">
-                  <h3 id="berita3">Berita Terbaru 3</h3>
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/GAMBAR_TIDAK_TERSEDIA.png" alt="" class="float-left">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum recusandae assumenda perferendis est voluptates. Repudiandae ut quos quisquam veritatis sequi ex harum, nihil temporibus aperiam? Molestias asperiores iure debitis numquam.</p>
+                <div class="col-lg subberita">
+                  <h3 class="bold" id="berita3">Pekerjaan yang Banyak Dibutuhkan Usai Pandemi</h3>
+                  <img src="https://i.postimg.cc/mksj5w9r/image3.png" alt="" class="float-left">
+                  <p class="pberita">Akibat pandemi COVID-19 ini ada hal baru yang harus kita ikuti seperti pemanfaatan teknologi yang makin luas sehingga kita harus berubah.</p>
+                    <a class="viewmore float-right" href="berita3.html">Selengkapnya >></a>
                 </div>
-                <div class="col-lg">
-                  <h3 id="berita4">Berita Terbaru 4</h3>
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/GAMBAR_TIDAK_TERSEDIA.png" alt="" class="float-left">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum recusandae assumenda perferendis est voluptates. Repudiandae ut quos quisquam veritatis sequi ex harum, nihil temporibus aperiam? Molestias asperiores iure debitis numquam.</p>
+                <div class="col-lg subberita">
+                  <h3 class="bold" id="berita4">Siap-siap! 85 Juta Pekerjaan Bakal Digantikan Robot</h3>
+                  <img src="https://i.postimg.cc/1R74Mt1k/image4.png" alt="" class="float-left">
+                  <p class="pberita">Akibat pandemi COVID-19 telah mempercepat perubahan teknologi yang dapat menggantikan 85 juta jenis pekerjaan dalam 5 tahun.</p>
+                    <a class="viewmore float-right" href="berita4.html">Selengkapnya >></a>
                 </div>
               </div>
             </div>
@@ -106,11 +118,11 @@
 
       <!-- Sidebar -->
       <div class="sidebar">
-        <h3>Berita Terbaru</h3>
-        <a href="#berita1"><p>Seminar & Workshop - Materi Microservice</p></a>
-        <a href="#berita2"><p>Lorem ipsum dolor</p></a>
-        <a href="#berita3"><p>Lorem ipsum dolor</p></a>
-        <a href="#berita4"><p>Lorem ipsum dolor</p></a>
+        <h3>Berita Terkini:</h3>
+        <a href="berita1.html"><p class="pberita">Seminar & Workshop - Materi Microservice</p></a>
+        <a href="berita2.html"><p class="pberita">660.000 Pekerjaan Diprediksi Hilang Gegara Corona</p></a>
+        <a href="berita3.html"><p class="pberita">Pekerjaan yang Banyak Dibutuhkan Usai Pandemi</p></a>
+        <a href="berita4.html"><p class="pberita">Siap-siap! 85 Juta Pekerjaan Bakal Digantikan Robot</p></a>
       </div>
       <!-- /Sidebar -->
     </div>
