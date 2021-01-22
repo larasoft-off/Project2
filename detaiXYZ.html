@@ -19,6 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&family=Work+Sans:wght@400&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
   <!-- Header -->
@@ -39,7 +40,7 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="lowongan1.html">Lowongan Baru<span class="sr-only">(current)</span></a>
@@ -51,7 +52,7 @@
               <a class="nav-link" href="DaftarMitra.html">Daftar Mitra</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#">Berita</a>
+              <a class="nav-link" href="berita.html">Berita</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -63,14 +64,19 @@
   <!-- Navbar -->
 
     <!-- Lowongan 1 -->
+    <div class="container side">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb bread justify-content-end bg-white">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="lowongan1.html">Lowongan Baru</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Lihat Detail</li>
+        </ol>
+      </nav>
+    </div>  
+
     <div class="container cf">
         <div class="main">
           <div class="main3">
-            <div class="OwO">
-                <a class="pojok" href="home.html">Home</a>
-                <a class="pojok0" href="lowongan1.html">Lowongan Baru</a>
-                <div class="pojok1" >Detail Lowongan</div>
-            </div>
             <header>Lowongan PT XYZ</header><br>
                 <P>PT ABC bergerak di bidang Property yang sedang berkembang, membutuhkan profesional IT yang dapat bekerja 
                    secar tim, inisiatif tinggi, fast learner dan berkepribadian baik.
@@ -88,11 +94,11 @@
     <!-- Lowongan 1 -->
       <!-- Sidebar -->
       <div class="sidebar">
-        <h3>Berita Terbaru</h3>
-        <a href="#berita1"><p>Lorem ipsum dolor</p></a>
-        <a href="#berita2"><p>Lorem ipsum dolor</p></a>
-        <a href="#berita3"><p>Lorem ipsum dolor</p></a>
-        <a href="#berita4"><p>Lorem ipsum dolor</p></a>
+        <h3>Berita Terkini:</h3>
+        <a href="berita1.html"><p class="pberita">Seminar & Workshop - Materi Microservice</p></a>
+        <a href="berita2.html"><p class="pberita">660.000 Pekerjaan Diprediksi Hilang Gegara Corona</p></a>
+        <a href="berita3.html"><p class="pberita">Pekerjaan yang Banyak Dibutuhkan Usai Pandemi</p></a>
+        <a href="berita4.html"><p class="pberita">Siap-siap! 85 Juta Pekerjaan Bakal Digantikan Robot</p></a>
       </div>
       <!-- /Sidebar -->
     </div>
